@@ -17,7 +17,7 @@ rm -rf $script_copy_dir
 cp $scriptpath $script_copy_dir -rf
 
 # Generate four random files.
-for i in {1..4}
+for i in {1..6}
 do
   input_data[$i]=$input_data_path/data$i
   echo Generating random input file ${input_data[$i]}
